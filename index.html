@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Optimization</title>
+        <link rel="stylesheet" href="./bulma.min.css">
+        <link rel="stylesheet" href="./custom_style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="math.js" type="text/javascript"></script>
+        <script src="projects.js"></script>
+    </head>
+    <body>
+        <div class="section">
+            <div class="container">
+                <div class="content">
+                    <div class="field">
+
+                      <div class="field">
+                        <label class="label">Matrix</label>
+                        <div class="control">
+                          <textarea  id="matrixsub" class="textarea" placeholder="ex. [1, 2],
+      [3, 4]"></textarea>
+                        </div>
+                      </div>
+                      
+                      <div class="field is-grouped">
+                        <!-- <div class="control">
+                          <button class="button is-link">Add Row</button>
+                        </div>
+                        <div class="control">
+                          <button class="button is-link is-light">Add Col</button>
+                        </div> -->
+                        <div class="control">
+                            <button class="button is-link is-light" onclick="matrixsub()">Submit</button>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

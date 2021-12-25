@@ -1,0 +1,24 @@
+{
+  "name": "optimization",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samantho/optimization.git"
+  },
+  "author": "Samantha H Anthony",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samantho/optimization/issues"
+  },
+  "homepage": "https://github.com/samantho/optimization#readme",
+  "dependencies": {
+    "math.js": "^1.1.46",
+    "mathjs": "^10.0.1",
+    "requirejs": "^2.3.6"
+  }
+}
