@@ -9,30 +9,66 @@
         <script src="projects.js"></script>
     </head>
     <body>
+        <div class="section" style="background-color: #99badd;">
+            <div class="container">
+                <div class="content">
+                    <div class="columns">
+                        <div class="column">
+                            <p class="title">Optimization</p>
+                        </div>
+                        <div class="column">
+                            <p class="subtitle has-text-right">Developed by Samantha H Anthony</p>
+                        </div>
+                    </div>
+                    
+                    <p></p>
+                    <p class="subtitle">Personal interpretation of optimization modeling and computing using the simplex method, similar to AMPL.</p>
+                </div>
+            </div>
+        </div>
+
         <div class="section">
             <div class="container">
                 <div class="content">
-                    <div class="field">
+                    <div class="columns">
+                        <div class="column">
+                            <label class="label">Matrix</label>
+                            <img src="./problemsetup.jpg" alt="Simplex Diagram">
+                            <div class="field is-grouped is-grouped-multiline">
+                                <div class="control">
+                                    <label>Matrix A</label>
+                                    <textarea  id="subA" class="textarea" placeholder="ex. [1, 2],
+      [3, 4],
+      [5, 6]"></textarea>
+                                </div>
+                                <div class="control">
+                                    <label>Matrix b</label>
+                                    <textarea  id="subB" class="textarea" placeholder="ex. [1,
+      2,
+      3]"></textarea>
+                                </div>
+                                <div class="control">
+                                    <label>Matrix c</label>
+                                    <textarea  id="subC" class="textarea" placeholder="ex. [1, 2]"></textarea>
+                                </div>
+                                <div class="control">
+                                    <label>Number of x Variables</label>
+                                    <textarea  id="subX" class="textarea" placeholder="ex. 2"></textarea>
+                                </div>
+                            </div>
 
-                      <div class="field">
-                        <label class="label">Matrix</label>
-                        <div class="control">
-                          <textarea  id="matrixsub" class="textarea" placeholder="ex. [1, 2],
-      [3, 4]"></textarea>
+                            
+                            <div class="field is-grouped">
+                                <div class="control">
+                                    <button class="button is-link is-light" onclick="matrixsub()">Submit</button>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                      
-                      <div class="field is-grouped">
-                        <!-- <div class="control">
-                          <button class="button is-link">Add Row</button>
+                        <div class="column">
+                            <label class="label">Simplex Diagram</label>
+                            <img src="./optimizationsimplex.png" alt="Simplex Diagram">
                         </div>
-                        <div class="control">
-                          <button class="button is-link is-light">Add Col</button>
-                        </div> -->
-                        <div class="control">
-                            <button class="button is-link is-light" onclick="matrixsub()">Submit</button>
-                        </div>
-                      </div>
+                    </div>
                 </div>
             </div>
         </div>
